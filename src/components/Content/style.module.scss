@@ -1,0 +1,68 @@
+.content {
+  margin: 2em auto;
+  padding: 0 2em 4em;
+  width: min(100%, 500px);
+
+  &Display {
+    margin-bottom: 3em;
+
+    small {
+      display: block;
+
+      font-size: 1em;
+      font-weight: 800;
+    }
+
+    span {
+      width: 100%;
+      display: inline-block;
+
+      font-size: 4em;
+      text-align: center;
+
+      sub {
+        font-size: 0.4em;
+        font-weight: 800;
+        color: #494d55;
+      }
+    }
+  }
+
+  &Form {
+    &Label {
+      display: block;
+      margin-bottom: 0.4em;
+
+      font-size: 0.9em;
+      font-weight: 800;
+    }
+
+    &Input {
+      width: 100%;
+      padding: 1em;
+      color: #FFF3E2;
+      border-radius: 0.15em;
+      background-color: #494d55;
+      transition: background-color 0.2s;
+
+      &::placeholder{
+        color: #FFF3E2;
+      }
+
+      &:focus {
+        color: #030303;
+        background-color: #FFF3E2;
+
+        &::placeholder{
+        color: #494d55;
+        }
+      }
+    }
+
+    &Alert {
+      strong {
+        color: #69b578;
+      }
+    }
+  }
+}

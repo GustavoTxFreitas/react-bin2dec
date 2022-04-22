@@ -1,0 +1,14 @@
+.Footer {
+  padding: 2em 0;
+  text-align: center;
+
+  a {
+    color: #69B578;
+    font-weight: 800;
+    transition: filter 0.2s;
+
+    &:hover{
+      filter: brightness(0.8);
+    }
+  }
+}
